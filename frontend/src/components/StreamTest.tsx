@@ -1,6 +1,5 @@
 import { useState } from "react";
-
-const URL = "http://localhost:4000/api/v1/completion";
+import { URL } from "../api";
 
 export function StreamTest() {
     const [assistantResponse, setAssistantResponse] = useState("");
